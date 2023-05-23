@@ -44,7 +44,7 @@ emulator -list-avds // check emulator available
 emulator -avd Pixel_XL_API_33 // <-- emulator -avd ${emulator name}
 ```
 
-# RUN to the running emulator with adb
+# run apk to the running emulator with adb
 
 ```
 adb devices // <-- check emulator address running
