@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  kivy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kivy
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/root
+      - ~/Android/Sdk:~/Android/Sdk
+    working_dir: /root
