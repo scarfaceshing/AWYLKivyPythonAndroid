@@ -1,12 +1,10 @@
-# AWYLKivyPythonAndroid 
+# INRODUCTION
 
-(INSTALLATION AND SETUP FOR ARCH LINUX ONLY)
+building android apk in android python with kivy
 
 # REQUIREMENTS
 
 - Android Studio
-- Python3
-- emulator create avd
 
 # INSTALLATION
 ```

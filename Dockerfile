@@ -4,8 +4,9 @@ RUN adduser -D kivy
 
 RUN pip install buildozer
 
-RUN apk add git zip unzip openjdk17-jdk
+RUN apk add git zip unzip openjdk17-jdk cython wget
 
 USER kivy
 
-CMD ["buildozer", "serve"]
+CMD ["buildozer", "-v", "android", "debug"]
+# CMD ["buildozer", "serve"]
