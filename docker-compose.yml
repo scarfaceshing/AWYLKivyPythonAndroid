@@ -7,8 +7,7 @@ services:
       dockerfile: Dockerfile
     image: kivy
     ports:
-      - "3000:3000"
+      - "8000:8000"
     volumes:
-      - ./:/root
-      - ~/Android/Sdk:~/Android/Sdk
-    working_dir: /root
+      - ./:/app
+    working_dir: /app
