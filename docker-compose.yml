@@ -9,5 +9,5 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./:/kivy
-    working_dir: /kivy
+      - ./:/home/kivy/app
+    working_dir: /home/kivy/app
